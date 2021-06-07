@@ -7,6 +7,15 @@ name = "pypi"
 isort = "*"
 black = "*"
 jupyterlab = "*"
+pandas = "*"
+tqdm = "*"
+seaborn = "*"
+matplotlib = "*"
+numpy = "*"
+sklearn = "*"
+networkx = "*"
+pydot = "*"
+graphviz = "*"
 
 [dev-packages]
 
