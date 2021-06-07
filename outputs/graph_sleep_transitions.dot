@@ -1,0 +1,32 @@
+digraph  {
+wake;
+light;
+rem;
+deep;
+unknown;
+wake -> wake  [key=0, label="0.063", weight="0.063"];
+wake -> light  [key=0, label="0.912", weight="0.912"];
+wake -> rem  [key=0, label="0.022", weight="0.022"];
+wake -> deep  [key=0, label="0.003", weight="0.003"];
+wake -> unknown  [key=0, label="0.0", weight="0.0"];
+light -> wake  [key=0, label="0.267", weight="0.267"];
+light -> light  [key=0, label="0.006", weight="0.006"];
+light -> rem  [key=0, label="0.382", weight="0.382"];
+light -> deep  [key=0, label="0.345", weight="0.345"];
+light -> unknown  [key=0, label="0.0", weight="0.0"];
+rem -> wake  [key=0, label="0.133", weight="0.133"];
+rem -> light  [key=0, label="0.839", weight="0.839"];
+rem -> rem  [key=0, label="0.0", weight="0.0"];
+rem -> deep  [key=0, label="0.028", weight="0.028"];
+rem -> unknown  [key=0, label="0.0", weight="0.0"];
+deep -> wake  [key=0, label="0.102", weight="0.102"];
+deep -> light  [key=0, label="0.866", weight="0.866"];
+deep -> rem  [key=0, label="0.032", weight="0.032"];
+deep -> deep  [key=0, label="0.0", weight="0.0"];
+deep -> unknown  [key=0, label="0.0", weight="0.0"];
+unknown -> wake  [key=0, label="1.0", weight="1.0"];
+unknown -> light  [key=0, label="0.0", weight="0.0"];
+unknown -> rem  [key=0, label="0.0", weight="0.0"];
+unknown -> deep  [key=0, label="0.0", weight="0.0"];
+unknown -> unknown  [key=0, label="0.0", weight="0.0"];
+}
