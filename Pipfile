@@ -16,6 +16,8 @@ sklearn = "*"
 networkx = "*"
 pydot = "*"
 graphviz = "*"
+ipywidgets = "*"
+plotly = "*"
 
 [dev-packages]
 
