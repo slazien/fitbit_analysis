@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-jupyter trust ../notebooks/data_processing.ipynb
+jupyter trust data_processing.ipynb
